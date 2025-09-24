@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8"/>
+  <title>英语考试系统</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="header">
+    <div id="title">请选择本地试题包</div>
+    <div id="timer">剩余时间：--</div>
+  </div>
+
+  <!-- 导入区域 -->
+  <div id="importArea">
+    <button id="pickBtn">📁 导入本地试题包</button>
+    <p class="hint">选择包含 config.json 的文件夹</p>
+  </div>
+
+  <!-- 答题区域 -->
+  <div id="content"></div>
+  <button id="submitBtn" onclick="submitPaper()" style="display:none;">交卷</button>
+  <div id="result"></div>
+
+  <script src="exam.js"></script>
+</body>
+</html>
