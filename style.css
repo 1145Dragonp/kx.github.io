@@ -1,0 +1,11 @@
+body{margin:0;font-family:Arial;background:#f4f4f4;}
+#header{position:sticky;top:0;background:#fff;border-bottom:1px solid #ccc;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;z-index:10;}
+#timer{font-weight:bold;color:#e60000;}
+#importArea{text-align:center;padding:40px;}
+#pickBtn{padding:12px 25px;font-size:16px;cursor:pointer;}
+.hint{font-size:14px;color:#666;margin-top:8px;}
+#content{padding:20px;max-width:800px;margin:auto;background:#fff;min-height:60vh;}
+.item{margin-bottom:30px;}
+.item img{height:120px;border:1px solid #ccc;margin-right:10px;}
+#submitBtn{position:fixed;bottom:20px;right:20px;padding:12px 25px;background:#007bff;color:#fff;border:none;border-radius:6px;cursor:pointer;}
+#result{display:none;padding:20px;background:#eef;border-left:6px solid #007bff;margin-top:20px;}
